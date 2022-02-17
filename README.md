@@ -18,6 +18,7 @@ We should create a table that we catalog the movements from each category(manage
 In this project , we must create an ER diagramm ,  tables , inserts , store procedures and triggers. 
 
 Store Procedures: 
+
 1)We create a Store Procedure that,  it appeared all requests from each evaluator , evaluators' names and lastnames and the grades of every assessment.
 
 2)We create a Store Procedure that, which it given one ID and one evaluator's ID and if there are three grades on assessments , this store procedure will check them. If evaluations are completed , store procedure print a message and updated the table which called evaluation_result ,automatically. 
@@ -26,5 +27,6 @@ Store Procedures:
 If not , then printed the following message: "Evaluation in process".
 
 Triggers:
+
 1)We create a trigger. When we try to update some data,the data like AFM, DOY and the name will keep their previous numbers.
 2) We create a trigger , which allows to the administrator  to change  personals profiles of evaluators , managers and employees . But anyone else can change the profiles. 
